@@ -1,3 +1,36 @@
+ /* about section */
+ #about {
+     width: auto;
+     height: auto;
+     padding: 20px;
+     border: 1px solid black;
+ }
+
+ /* project section  */
+ #projects {
+     width: auto;
+     height: auto;
+     padding: 20px;
+     border: 1px solid black;
+ }
+
+ /* SKILLS SECTION  */
+ #skills {
+     width: auto;
+     height: auto;
+     padding: 20px;
+     border: 1px solid black;
+ }
+
+
+ /* CONNECT SECTION  */
+ #contact {
+     width: auto;
+     height: auto;
+     padding: 20px;
+     border: 1px solid black;
+ }
+
  /* header  */
 
  /* css for image profile photo */
