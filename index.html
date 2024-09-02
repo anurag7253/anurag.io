@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <h1 class="name">Anurag Sharma</h1>
         <img class="profile-img" src="image/my photo.jpg" alt="Profile photo">
         <nav>
@@ -26,11 +26,12 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Highly motivated Computer Science graduate (2022) with hands-on experience in full-stack web development.
-            Successfully developed a Recruitment Management System and an Online Shopping System, demonstrating
-            proficiency in Java, HTML, CSS, and JavaScript. Possessing strong analytical and problem-solving skills, I
-            am eager to apply my technical expertise to contribute to innovative software solutions in a dynamic team
-            environment.</p>
+        <p>Highly motivated Computer Science graduate (2022) with hands-on experience in full-stack web
+            development. Successfully developed a Recruitment Management System and an Online Shopping System,
+            demonstrating proficiency in Java, HTML, CSS, and JavaScript. Possessing strong analytical and
+            problem-solving skills, I am eager to apply my technical expertise to contribute to innovative software
+            solutions in a dynamic team environment.
+        </p>
     </section>
 
     <section id="projects">
@@ -49,15 +50,15 @@
         </div>
         <div class="project" id="p3">
             <h3>Project 3</h3>
-            <p>Description of Project 2</p>
-            <img src="/assets/images/project2.jpg" alt="Project 2 image">
-            <a href="project2-details.html">View Details</a>
+            <p>Description of Project 3</p>
+            <img src="/assets/images/project3.jpg" alt="Project 3 image">
+            <a href="project3-details.html">View Details</a>
         </div>
         <div class="project" id="p4">
             <h3>Project 4</h3>
-            <p>Description of Project 2</p>
-            <img src="/assets/images/project2.jpg" alt="Project 2 image">
-            <a href="project2-details.html">View Details</a>
+            <p>Description of Project 4</p>
+            <img src="/assets/images/project4.jpg" alt="Project 4 image">
+            <a href="project4-details.html">View Details</a>
         </div>
     </section>
 
@@ -93,28 +94,38 @@
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <span id="social">
+        <h2>Connect</h2>
+        <div id="social">
             <ul>
                 <li>
-                    <a href="https://www.instagram.com/anurag_saitiya/">Instagram
+                    <a href="https://www.instagram.com/anurag_saitiya/">Instagram</a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/apr98/">LinkDin
+                    <a href="https://www.linkedin.com/in/apr98/">LinkedIn</a>
                 </li>
-                <li><a href="https://x.com/anurag_saitiya">X</li>
-                <li><a href="https://github.com/anurag7253">gitHub</li>
+                <li>
+                    <a href="https://x.com/anurag_saitiya">X</a>
+                </li>
+                <li>
+                    <a href="https://github.com/anurag7253">GitHub</a>
+                </li>
             </ul>
-        </span>
-        <span>
+        </div>
+        <div class="contact-form">
             <form action="#">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message"></textarea>
+                <h3>Contact Us</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="Your Message"></textarea>
+
                 <button type="submit">Send</button>
             </form>
-        </span>
-
+        </div>
     </section>
 
     <footer>
