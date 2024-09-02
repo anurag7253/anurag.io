@@ -4,6 +4,7 @@
     width: auto;
     padding: 0%;
     background-color: azure;
+    list-style: none;
 }
 
 h1,
@@ -13,11 +14,16 @@ h4,
 h5,
 h6 {
     font-family: "Bebas Neue", sans-serif;
+    letter-spacing: .1em;
 }
 
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+li {
+    padding: .5em;
 }
 
 
@@ -37,7 +43,12 @@ body {
 }
 
 .navbar {
+
     border: 1px solid black;
+}
+
+.list {
+    display: flex;
 }
 
 /* ABOUT SECTION */
@@ -53,11 +64,17 @@ body {
 
 .project {
     border: 1px solid black;
+    display: flex;
 }
 
 /* SKILL SECTION */
 #skills {
     border: 2px solid black;
+}
+
+#skills ul {
+    display: flex;
+
 }
 
 /* CONNECT SECTION */
@@ -67,6 +84,10 @@ body {
 
 #social {
     border: 1px solid black;
+}
+
+#contact div ul {
+    display: flex;
 }
 
 .contact-form {
