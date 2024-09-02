@@ -1,0 +1,74 @@
+/* UNIVERSAL SELECTOR */
+* {
+    height: auto;
+    width: auto;
+    padding: 0%;
+    background-color: azure;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER SECTION CSS */
+
+#home {
+    border: 2px solid black;
+}
+
+.name {
+    border: 1px solid black;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+}
+
+.navbar {
+    border: 1px solid black;
+}
+
+/* ABOUT SECTION */
+
+#about {
+    border: 2px solid black;
+}
+
+/* PROJECT SECTION  */
+#projects {
+    border: 2px solid black;
+}
+
+.project {
+    border: 1px solid black;
+}
+
+/* SKILL SECTION */
+#skills {
+    border: 2px solid black;
+}
+
+/* CONNECT SECTION */
+#contact {
+    border: 2px solid black;
+}
+
+#social {
+    border: 1px solid black;
+}
+
+.contact-form {
+    border: 1px solid black;
+}
