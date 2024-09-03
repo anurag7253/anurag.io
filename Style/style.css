@@ -17,6 +17,16 @@ h6 {
     letter-spacing: .1em;
 }
 
+/* Common styles for hover effect */
+a:hover,
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+    color: blue;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -26,10 +36,9 @@ li {
     padding: .5em;
 }
 
-
 /* HEADER SECTION CSS */
-
 #home {
+    text-align: center;
     border: 2px solid black;
 }
 
@@ -43,53 +52,107 @@ li {
 }
 
 .navbar {
-
     border: 1px solid black;
 }
 
 .list {
     display: flex;
+    justify-content: center;
 }
 
 /* ABOUT SECTION */
-
 #about {
+    text-align: center;
     border: 2px solid black;
 }
 
 /* PROJECT SECTION  */
 #projects {
     border: 2px solid black;
+    text-align: center;
 }
 
 .project {
     border: 1px solid black;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* SKILL SECTION */
 #skills {
+    text-align: center;
     border: 2px solid black;
 }
 
 #skills ul {
-    display: flex;
 
+    display: flex;
+    justify-content: center;
 }
 
 /* CONNECT SECTION */
 #contact {
+    text-align: center;
     border: 2px solid black;
+
 }
 
 #social {
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
 }
 
 #contact div ul {
     display: flex;
+
 }
 
+/* FORM CSS */
 .contact-form {
-    border: 1px solid black;
+    border: 1px solid;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: transparent;
 }
