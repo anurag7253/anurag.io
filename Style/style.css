@@ -11,6 +11,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+
 }
 
 /* HEADER STYLES */
@@ -20,6 +21,7 @@ header {
     padding: 1em 0;
     text-align: center;
 }
+
 
 
 
@@ -88,32 +90,6 @@ header {
         transform: translate(0);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 header .profile-img {
